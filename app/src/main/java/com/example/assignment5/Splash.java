@@ -11,7 +11,6 @@ import java.util.TimerTask;
 
 public class Splash extends AppCompatActivity {
     MediaPlayer tone;
-    int playing;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,13 +20,12 @@ public class Splash extends AppCompatActivity {
 
         tone = new MediaPlayer();
         tone = MediaPlayer.create(this, R.raw.food);
-//        tone.start();
-
+        tone.start();
 
         TimerTask task = new TimerTask() {
             public void run(){
                 finish();
-//                tone.pause();
+                tone.pause();
                 startActivity(new Intent(Splash.this, MainActivity.class));
             }
         };
