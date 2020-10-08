@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Assignment 5</string>
+    <string-array name="food">
+        <item>Kale\Lemon Sandwiches</item>
+        <item>Mango-Lime Salad</item>
+        <item>Sweet Potato and Lentil Soup</item>
+        <item>Lime Mousse</item>
+        <item>Broiled Tilapia Parmeasan</item>
+        <item>Honey Lime with Aloe</item>
+        <item>Northern Lights</item>
+        <item>Deerioca Fever</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is a random description.</item>
+        <item>This is a random description.</item>
+        <item>This is a random description.</item>
+        <item>This is a random description.</item>
+        <item>This is a random description.</item>
+        <item>This is a random description.</item>
+        <item>This is a random description.</item>
+        <item>This is a random description.</item>
+    </string-array>
 </resources>
