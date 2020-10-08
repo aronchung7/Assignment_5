@@ -22,6 +22,9 @@ public class MainActivity2 extends AppCompatActivity {
         imageView = findViewById(R.id.imageView);
         title = findViewById(R.id.title);
         description = findViewById(R.id.description);
+
+        getData();
+        setData();
     }
 
     private void getData(){
